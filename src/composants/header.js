@@ -1,20 +1,22 @@
 
-import {Container,Navbar} from 'react-bootstrap';
+import {Container,Navbar,Nav} from 'react-bootstrap';
 
-function Nav(){
+function Navb(){
     return(<div>
    <Container>
      <Navbar>
-  <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+  <Navbar.Brand href="#home"><a href="#home"><img src="./assets/images/logo.png" alt="log"/></a></Navbar.Brand>
   <Navbar.Toggle />
   <Navbar.Collapse className="justify-content-end">
-    <Navbar.Text>
-      Signed in as: <a href="#login">Mark Otto</a>
-    </Navbar.Text>
+  <Nav>
+      <Nav.Link href="#deets" className="color">About-us</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">Career</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">Départements</Nav.Link>
+    </Nav>
   </Navbar.Collapse>
 </Navbar>
 </Container>
         
     </div>)
 }
-export default Nav
+export default Navb

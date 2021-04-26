@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+/*image sous nav*/
+div .image1{
+  margin: 2em !important;
+}
+/*paragraphes*/
+div .flex{
+  display: flex;
+  justify-content: space-around !important;
+  color: #747474 !important;
+  font-family: 'Work Sans', sans-serif !important;
+  font-weight: bold;
+  text-align: justify !important;
+  line-height: 1.5;
+  box-sizing: inherit;
+  margin: 4rem;
+  font-size: 18px;
+}
+p{
+  display: block !important;
+  margin-inline-start: 20px;
+  margin-inline-end: 10px;
+}
+/*cartes*/
+.cartes{
+  background-color: #00ccb1;
+  height: 345px;
+  border-radius: 5%;
+  color: white;
+  font-size: 1.3rem;
+}
+.titr{
+  font-size: 1.7rem;
+}
+.link{
+  margin-top: 60px !important;
+  color: white;
+  float: left;
+  margin-left: 20px;
+}
