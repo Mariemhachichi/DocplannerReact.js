@@ -6,6 +6,7 @@ import Paragraphe from './composants/paragraphes'
 import Carte from './composants/cartes'
 import Car from './composants/cartes2'
 import Part2 from './composants/partie2';
+import Footer from './composants/footer';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       </div>
      <Part2 />
       <Car />
+      <Footer />
       </div>
     </div>
   );
