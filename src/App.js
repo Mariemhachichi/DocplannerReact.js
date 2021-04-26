@@ -4,6 +4,8 @@ import Navb from './composants/header'
 import Titre from './composants/titres'
 import Paragraphe from './composants/paragraphes'
 import Carte from './composants/cartes'
+import Car from './composants/cartes2'
+import Part2 from './composants/partie2';
 
 function App() {
   return (
@@ -25,10 +27,8 @@ function App() {
         <Titre />
         <img src="./assets/images/capture2.png" alt="im"/>
       </div>
-      <div>
-      <Titre />
-      <Paragraphe />
-      </div>
+     <Part2 />
+      <Car />
       </div>
     </div>
   );

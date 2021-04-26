@@ -65,13 +65,50 @@ p{
   border-radius: 5%;
   color: white;
   font-size: 1.3rem;
+  font-family: 'Work Sans', sans-serif;
 }
 .titr{
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+  font-family: 'Work Sans', sans-serif;
 }
 .link{
   margin-top: 60px !important;
   color: white;
   float: left;
   margin-left: 20px;
+  font-family: 'Work Sans', sans-serif;
+}
+/*partie2*/
+.car{
+  background: #e5faf8;
+  padding: 2rem;
+}
+.car h2{
+  color: #56c4a5;
+  padding: 4rem ;
+  font-family: 'Work Sans', sans-serif;
+}
+.car .parag{
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 2;
+  margin-bottom: 3rem;
+  font-family: 'Work Sans', sans-serif;
+  color: gray;
+}
+.car .img{
+  width: 30%;
+  height: 30%;
+}
+
+.car .stats__item{
+  background: #fff ;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  width: 94%;
+  height: 250px;
+  font-family: 'Work Sans', sans-serif;
+  color: gray;
 }

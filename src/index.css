@@ -15,10 +15,9 @@ Nav .color{
 }
 /*titres*/
 h1 {
-  font-size: 1.8rem !important;
+  font-size: 1.9rem !important;
   color: #00b39b;
   margin: 2rem !important;
-  font-weight: 600 !important;
   letter-spacing: 3px;
   font-family: 'Work Sans', sans-serif;
 }
